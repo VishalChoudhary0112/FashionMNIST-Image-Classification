@@ -6,17 +6,6 @@
 
 A PyTorch implementation of TinyVGG CNN for classifying FashionMNIST images, achieving 88.93% test accuracy.
 
-## Table of Contents
-- [Project Overview](#-project-overview)
-- [Results](#-results)
-- [Installation & Usage](#-installation--usage)
-- [Project Structure](#-project-structure)
-- [Key Features](#key-features)
-- [Model Architecture](#-model-architecture)
-- [Training](#-training)
-- [Performance Insights](#-performance-insights)
-- [License](#-license)
-
 ## 📌 Project Overview
 
 This project implements a Convolutional Neural Network (CNN) using the TinyVGG architecture to classify images from the FashionMNIST dataset. The model achieves 88.93% testing accuracy with a loss of 0.315, demonstrating strong performance in recognizing fashion items.
@@ -33,18 +22,4 @@ This project implements a Convolutional Neural Network (CNN) using the TinyVGG a
 | Test Accuracy | 88.93%  |
 | Test Loss     | 0.315   |
 
-Confusion matrix and sample predictions:
 
-![Sample Predictions](https://via.placeholder.com/600x400?text=Sample+Predictions) *(replace with actual image)*
-
-## 🛠️ Installation & Usage
-
-### Prerequisites
-- Python 3.7+
-- PyTorch 1.8+
-- Jupyter Notebook (optional)
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/fashionmnist-cnn.git
-cd fashionmnist-cnn
